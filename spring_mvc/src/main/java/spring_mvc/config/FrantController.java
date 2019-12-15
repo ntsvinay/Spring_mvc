@@ -13,9 +13,8 @@ public class FrantController extends AbstractAnnotationConfigDispatcherServletIn
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		// TODO Auto-generated method stub
-		return new Class<?>[] {
-			AppConfig.class
-		};
+
+		return new Class<?>[] { AppConfig.class };
 	}
 
 	@Override
